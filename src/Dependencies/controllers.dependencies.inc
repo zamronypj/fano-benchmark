@@ -9,3 +9,7 @@
 {%dependencies.inc}
 
 {---put your controller-related dependencies registration here---}
+
+container.add('homeController', THomeControllerFactory.create());
+container.add('userController', TUserControllerFactory.create());
+container.add('newuserController', TNewUserControllerFactory.create());
